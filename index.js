@@ -11,7 +11,7 @@ const assembly = axios.create({
     "transfer-encoding": "chunked",
   },
 });
-const file = "./Audio/sample-2.mp3";
+const file = "./Audio/Audio Text.wav";
 var app = express();
 app.listen(port, (err) => {
   if (err) {
